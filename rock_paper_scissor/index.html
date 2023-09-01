@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock,paper,scissors</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Welcome in rock paper scissors</h1>
+
+    <h2>Userchoice</h2>
+    <p>Please Select your choice...</p>
+
+    <form id="formInfo">
+      <div class="container">
+        <input type="radio" name="user" value="rock" class="child">rock
+        <img src="images/rock.png" class="img" alt="Rock"><br>
+        <input type="radio" name="user" value="paper" class="child">paper
+        <img src="images/paper.jpeg" class="img" alt="Rock"><br>
+        <input
+          type="radio"
+          name="user"
+          value="scissors"
+          class="child"
+        >scissors
+        <img src="images/scissors.png" class="img" alt="scissors"><br>
+
+        <br>
+      </div>
+      <button type="button" onclick="displayRadioValue()" id="button">
+        play
+      </button>
+
+      <br>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="assign.js"></script>
+  </body>
+</html>
